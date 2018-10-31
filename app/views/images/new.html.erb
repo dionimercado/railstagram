@@ -1,0 +1,6 @@
+<h1>Add new image</h1>
+<%= form_for :image , url: images_path do |f| %>
+  <%= f.label :description %><br>
+  <%= f.text_field :description %><br>
+  <%= f.submit %>
+<% end %>
